@@ -1,0 +1,5 @@
+# fichier pour les robots du site http://www.lachouetteagence.com/
+User-Agent: *
+Disallow: 
+Allow: /*.css?* 
+Sitemap: http://www.lachouetteagence.com/sitemap_index.xml 

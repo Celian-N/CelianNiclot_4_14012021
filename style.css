@@ -56,6 +56,10 @@ a:hover {
     padding: 20px 50px;
 }
 
+form .form-group{
+    margin: 20px 0;
+}
+
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -122,10 +126,10 @@ a:hover {
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
-.d-bloc a .icon-sm,
-.d-bloc a .icon-md,
-.d-bloc a .icon-lg,
-.d-bloc a .icon-xl,
+.d-bloc a,
+.d-bloc a,
+.d-bloc a,
+.d-bloc a,
 .d-bloc h1 a,
 .d-bloc h2 a,
 .d-bloc h3 a,
@@ -433,20 +437,30 @@ nav .caret {
     border-bottom-color: transparent;
     margin: 6px -5px 0 0!important;
     float: right;
-}
+} 
 
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+}
+.mx-lg {
+    margin : 0 80px;
+}
+.mt-md{
+    margin-top: 30px;
 }
 
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
 }
+.text-bold{
+    font-weight: bold;
+}
 
 .btn {
     margin: 0 5px 5px 0;
+    cursor: pointer;
 }
 
 .btn.pull-right {
@@ -478,6 +492,7 @@ button {
 .icon-md {
     font-size: 30px!important;
 }
+
 
 .icon-lg {
     font-size: 60px!important;
@@ -638,6 +653,25 @@ a[data-lightbox]:hover img {
     color: rgba(0, 0, 0, .5);
     background: none;
 }
+.citation{
+ font-size: 18px;
+ margin: 0 50px;
+ font-weight: bold;
+ font-style: italic;
+}
+.citation__caption{
+    font-size: 14px;
+}
+.contact__descr{
+    font-size: 14px;
+    line-height: 20px;
+}
+.bloc-6__descr {
+    font-size: 14px;
+}
+.contact{
+    margin-top: 200px;
+}
 
 h1,
 h2,
@@ -689,6 +723,18 @@ p {
     font-size: 20px;
     font-family: "Open Sans";
 }
+.text-center{
+    text-align: center;
+}
+.px-xl{
+    padding: 0 120px;
+}
+.services__descr{
+    font-size: 14px;
+}
+.what-i-do__descr{
+    font-size: 14px;
+}
 
 .cta-hero {
     margin-top: 22px;
@@ -738,6 +784,17 @@ h4 {
 .white {
     color: #FFFFFF!important;
 }
+.footer__title{
+    font-size: 14px;
+}
+.footer__part{
+    color: #000000;
+    font-size: 14px;
+}
+.footer__list li{
+   margin: 5px 0;
+   font-size: 14px;
+}
 
 .portfolio-thumb {
     margin-bottom: 24px;
@@ -747,13 +804,16 @@ h4 {
     margin-bottom: 44px;
     margin-top: 50px;
 }
+.portfolio__descr{
+    font-size: 14px;
+}
 
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(107, 90, 37);
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,16 +831,23 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #FFC76C;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFC16C!important;
+}
+.tc-black {
+    color: black!important;
+}
+
+.btn-upper{
+    text-transform: uppercase;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #FFC16C;
+    color: #000000 !important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -813,16 +880,12 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
-
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.png");
 }
 
 @media (max-width: 1024px) {
@@ -1025,6 +1088,21 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .btn-menu{
+        border-radius: 0;
+        background: transparent;
+        text-transform: none;
+    }
+    .btn-menu:hover{
+        background: transparent !important;
+        color: black !important;
+    }
+    .contact{
+        margin-top: 50px;
+    }
+    .bloc-2__title{
+        margin: 0 20px;
     }
 }
 
